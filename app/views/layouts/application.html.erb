@@ -19,6 +19,7 @@
 			<% if !user_signed_in? %>
 				<!-- <li class="sign_in"><%#= link_to('Sign In', new_user_session_path) %></li> -->
 				<li><button class="button"><%= link_to('Sign In', new_user_session_path) %></button></li>
+				<li><button class="button"><%= link_to('Sign Up', new_user_registration_path) %></button></li>
 				<!-- <li>Sign In</li> -->
 			<% end %>
 			<% if user_signed_in? %>
